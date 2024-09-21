@@ -8,7 +8,7 @@
 <body>
     <h1>SVG Image in HTML</h1>
 
-    
+    <!--  my svg sun -->
     <svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
        
         <circle cx="100" cy="100" r="50" fill="yellow" stroke="orange" stroke-width="5" />
@@ -16,8 +16,22 @@
         <line x1="100" y1="170" x2="100" y2="200" stroke="orange" stroke-width="5"/>
        
     </svg>
+    <!-- Red circle -->
+    <svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+        
+        <circle cx="100" cy="100" r="90" fill="red" />
+        <line x1="60" y1="60" x2="140" y2="140" stroke="white" stroke-width="15" stroke-linecap="round" />
+        <line x1="140" y1="60" x2="60" y2="140" stroke="white" stroke-width="15" stroke-linecap="round" />
+    </svg>
+    <!--  the magnifying glass -->
+    <svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+       
+        <circle cx="90" cy="90" r="60" fill="none" stroke="black" stroke-width="15" />
+        <rect x="125" y="125" width="60" height="15" fill="black" transform="rotate(45 125 125)" />
+    </svg>
 
     <h1>SVG Image from External File</h1>
     <img src="extra.svg" alt="SVG Cloud" width="200" height="200">
+    
 </body>
 </html>
