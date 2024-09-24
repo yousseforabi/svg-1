@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+    <symbol id="cloud" viewBox="0 0 200 200">
+        <circle cx="100" cy="100" r="80" fill="lightblue" />
+        <circle cx="60" cy="100" r="60" fill="lightblue" />
+        <circle cx="140" cy="100" r="60" fill="lightblue" />
+    </symbol>
+</svg>
